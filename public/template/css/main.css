@@ -1,0 +1,448 @@
+/* * {
+    box-sizing: border-box;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+*/
+.form-inline {
+    display: flex;
+    gap: 10px;
+}
+
+/* .btn {
+	background-color: #0BA1DC;
+	color: white;
+}
+
+.btn-full-width {
+    width: 100%;
+}
+
+.btn-wide {
+    padding: 5px 50px 5px 50px;
+}
+
+.btn:hover {
+    background-color: #E7F9FD;
+    color: black;
+} */
+
+/* .center {
+    text-align: center;
+    margin: 0 auto 0 auto;
+} */
+
+.swiper {
+    width: 100%;
+    height: 300px;
+}
+
+.swiper-slide {
+    display: flex;
+    gap: 10px;
+    padding: 0 60px 50px 60px;
+}
+
+.card {
+    height: 250px;
+    border: none;
+}
+
+/* navbar styles */
+/* .navbar1 {
+	height: 60px;
+	width: 100%;
+	background-color: #2055CB;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar2 {
+    height: 60px;
+    width: 100%;
+    background-color: #2055CB;
+}
+
+.navbar3 {
+	height: 60px;
+	width: 100%;
+	background-color: #2055CB;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    font-size: x-large;
+} */
+
+.nav-icon {
+    display: flex;
+    gap: 30px;
+    color: #e7f9fd;
+}
+
+.fa-solid {
+    margin-top: 10px;
+}
+
+.iconify {
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+.iconify-share {
+    margin: 0;
+    font-size: 24pt;
+}
+
+.icon-lg:hover {
+    color: #5B5EA6;
+}
+
+/* .logo {
+    margin-right: 10%;
+} */
+
+.navbar-nav {
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.navbar-search {
+    width: 50%;
+}
+
+.navbar-toggler {
+    background-color: #5B5EA6;
+    margin-right: 20px;
+}
+
+/* login page styles */
+/* .login-menu {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.login-bg {
+	text-align: left;
+	max-width: 500px;
+	margin: 20px auto 0 auto;
+	padding: 50px;
+	background-color: #E7F9FD;
+	border-radius: 20px;
+} */
+
+/* landing page styles */
+.landing-page-search {
+    text-align: left;
+    max-width: 70%;
+    margin: 20px auto 0 auto;
+    padding: 50px;
+}
+
+.area-card {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.more-btn {
+    margin-bottom: 100px;
+}
+
+/* browsing page styles */
+.filter {
+    display: flex;
+    align-items: center;
+    background-color: #e7f9fd;
+    margin-top: 10px;
+}
+
+.filter-inner {
+    list-style-type: none;
+    gap: 20px;
+}
+
+.filter-outer {
+    justify-content: space-between;
+}
+
+.filter-item {
+    background-color: #0ba1dc;
+    color: white;
+    border-radius: 200px;
+    padding: 5px 20px 5px 20px;
+}
+
+.filter-btn {
+    outline: none;
+    background-color: #0ba1dc;
+    color: white;
+    border-radius: 200px;
+    padding: 5px 20px 5px 20px;
+    margin-right: 20px;
+}
+
+.filter-btn:hover,
+.filter-item:hover {
+    background-color: #5B5EA6;
+}
+
+.card-browse {
+    border-radius: 40px;
+    border: 2px solid white;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e6f5ff;
+}
+
+.card-browse-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-browse {
+    margin: 0 20px 0 20px;
+    border-radius: 5px;
+}
+
+.card-content-star {
+    display: flex;
+    gap: 10px;
+}
+
+.card-content-detail-name {
+    font-size: x-large;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+}
+
+.card-content-detail-location {
+    font-size: smaller;
+}
+
+.card-content-price {
+    display: flex;
+    justify-content: end;
+    gap: 7px;
+}
+
+.card-content-price-text {
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 5px 0 0 0;
+}
+
+.card-content-price-interval {
+    font-size: x-large;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+}
+
+/* add rentplace styles */
+.add-rentplace-title {
+    margin-top: 60px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.add-rentplace {
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.add-rentplace-label {
+    font-weight: bolder;
+}
+
+.add-rentplace-photo-input {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.photo-frame {
+    height: 100px;
+    width: 100px;
+    background-color: #e7f9fd;
+}
+
+.space {
+    margin: 0 10px 0 10px;
+}
+
+.cancel {
+    border: solid 1px #2055cb;
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+}
+
+/* product detail page styles */
+.detail-product-title {
+    font-size: xx-large;
+    font-weight: 400;
+    margin: 60px 0 0 0;
+}
+
+.btn-icon {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.gallery-container {
+    position: relative;
+}
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    margin-right: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background: rgba(11, 161, 220, 0.6);
+}
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.text-larger {
+    font-size: larger;
+}
+
+.text-bolder {
+    font-weight: bolder;
+}
+
+.detail-profile-icon {
+    font-size: 6em;
+}
+
+.detail-container {
+    background-color: #e7f9fd;
+    padding: 20px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+}
+
+.star-checked {
+    color: orange;
+}
+
+.review-border {
+    border-radius: 10px;
+    background-color: #0ba1dc;
+    color: white;
+}
+
+.review-likes {
+    font-size: x-large;
+    text-align: end;
+}
+
+/* footer styles */
+/* .footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding-top: 10px;
+	width: 100%;
+	background-color: #2055CB;
+	color: white;
+	font-size: smaller;
+    z-index: 10;
+} */
+
+@media (max-width: 1000px) {
+    .swiper-slide,
+    .area-card {
+        flex-wrap: wrap;
+    }
+
+    .filter {
+        display: block;
+        text-align: center;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .filter-item {
+        margin-bottom: 10px;
+    }
+
+    .card-browse,
+    .card-content-price {
+        display: block;
+    }
+
+    .add-rentplace-photo-input {
+        display: block;
+    }
+
+    .photo-frame {
+        margin-bottom: 10px;
+    }
+}

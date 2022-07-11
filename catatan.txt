@@ -1,0 +1,33 @@
+enum status transaksi ->'pinjam', 'kembali', 'terlambat','hilang'
+enum status koleksi ->'tersedia', 'dipinjam', 'hilang'
+enum status denda -> 'lunas','hutang'
+
+transaksi:
+update masih harus ditambah if stattement untuk stok dan jumlah barangnya(udah)
+bisa nambahin if untuk anggota yang masih punya hutang denda
+gambar detail gk keluar(udah)
+
+
+koleksi:
+update masih harus ditambah if stattement untuk stok dan jumlah barangnya(udah)
+nambahin kode eksemplar dan kategori/tipe koleksi----->working
+
+Biblio:
+gambar di form masih belum nyala pas dibuka
+pas delete gk bisa karena on delete restrict ke koleksinya
+
+semua:
+buat kolom tabel gk ngebesaran sebesar content yang terbesarnya
+klo abis tambah biblio terus mau ngedit flash message nya muncul terus/semua gk di biblio aja
+dropdown form masih ke restart klo gk berhasil/ada di tambah koleksi
+bisa tambah rating kaya di rentx(udah)
+
+detail buku:
+
+
+catatan:
+bisa register jadi anggota dulu,trs pas registrasi bisa masukin nim apakah udh jadi anggota ato belom,kan cuman ngasih riwayat aja
+bisa tambah buku yang terkait
+
+warna ori:5E72E4
+warna baru:9B2335
